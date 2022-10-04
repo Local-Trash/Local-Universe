@@ -1,3 +1,9 @@
+$beige: #f2fbe0;
+$teaGreen: #dafeb7;
+$olivine: #acc18a;
+$rocketMetallic: #837a75;
+$davysGrey: #605b56;
+
 @font-face {
     font-family: bigboy;
     src: url(Bigboy.ttf);
@@ -11,7 +17,7 @@
     padding: 10px 20px 30px 4px;
     width: auto;
     height: 5%;
-    background-color: #dafeb7;
+    background-color: $teaGreen;
     position: absolute;
     top: 0;
     right: 0;
@@ -27,5 +33,5 @@
 }
 
 body {
-    background-color: #f2fbe0;
+    background-color: $beige;
 }
