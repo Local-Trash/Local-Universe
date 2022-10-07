@@ -1,3 +1,4 @@
+//sets my color palet as variables
 $beige: #F2FBE0;
 $teaGreen: #DAFEB7;
 $olivine: #ACC18A;
@@ -7,11 +8,13 @@ $gray: #605B56;
 //@Local-Trash
 
 @font-face {
+    //makes a font for the titles
     font-family: bigboy;
     src: url(Bigboy.ttf);
 }
 
 @font-face {
+    //makes font for the paragraph
     font-family: scrappy;
     src: url(Scrappy.ttf);
 }
