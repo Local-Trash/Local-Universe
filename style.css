@@ -1,29 +1,57 @@
 @font-face {
-    font-family: bigboy;
-    src: url(Bigboy.ttf);
-  }
-  @font-face {
-    font-family: scrappy;
-    src: url(Scrappy.ttf);
-  }
-  #title {
-    padding: 10px 20px 30px 4px;
-    width: auto;
-    height: 5%;
-    background-color: #dafeb7;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    padding-left: 35%;
-    padding-right: auto;
-    font-size: 300%;
-  }
-  #title p {
-    font-family: bigboy;
-    margin-top: 1%;
-  }
-  
-  body {
-    background-color: #f2fbe0;
-  }
+  font-family: bigboy;
+  src: url(Bigboy.ttf);
+}
+@font-face {
+  font-family: scrappy;
+  src: url(Scrappy.ttf);
+}
+#title {
+  padding: 10px 20px 30px 4px;
+  width: auto;
+  height: 5%;
+  background-color: #DAFEB7;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  font-size: 300%;
+}
+#title p {
+  font-family: bigboy;
+  margin-top: 1%;
+}
+
+body {
+  background-color: #F2FBE0;
+}
+
+#about {
+  margin-top: 100px;
+}
+#about header {
+  font-size: 250%;
+  font-family: bigboy;
+  text-align: center;
+}
+#about p {
+  font-family: scrappy;
+  text-align: center;
+}
+
+#rules header {
+  text-align: center;
+  font-size: 250%;
+  font-family: bigboy;
+}
+#rules #require {
+  font-family: scrappy;
+  text-align: center;
+  font-size: 150%;
+}
+#rules #require li {
+  font-size: 125%;
+  margin-left: 2%;
+  padding: 0%;
+}/*# sourceMappingURL=style.css.map */
