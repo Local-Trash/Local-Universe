@@ -57,26 +57,7 @@ body {
     }
 }
 
-#rules {
 
-    header {
-        text-align: center;
-        font-size: 250%;
-        font-family: bigboy;
-    }
-
-    #require {
-        font-family: scrappy;
-        text-align: center;
-        font-size: 150%;
-
-        li {
-            font-size: 125%;
-            margin-left: clamp(1%, 2%, 4%);
-            padding: 0%;
-        }
-    }
-}
 
 footer {
     margin-top: 20%;
