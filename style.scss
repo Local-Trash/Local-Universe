@@ -1,4 +1,4 @@
-//sets my color palet as variables
+//Color Palet
 $beige: #F2FBE0;
 $teaGreen: #DAFEB7;
 $olivine: #ACC18A;
@@ -8,19 +8,19 @@ $gray: #605B56;
 //@Local-Trash
 
 @font-face {
-    //makes a font for the titles
+    //BigBoy Font
     font-family: bigboy;
     src: url(Bigboy.ttf);
 }
 
 @font-face {
-    //makes font for the paragraph
+    //Scrappy Font
     font-family: scrappy;
     src: url(Scrappy.ttf);
 }
 
 #title {
-    //formats the title
+    //Title Box
     padding: 10px 20px 30px 4px;
     width: auto;
     height: 5%;
@@ -33,25 +33,30 @@ $gray: #605B56;
     font-size: 300%;
 
     p {
+        //Title Text
         font-family: bigboy;
         margin-top: 1%;
     }
 }
   
 body {
+    //Background
     background-color: $beige;
 }
 
 #about {
+    //About Box
     margin-top: 100px;
 
     header {
+        //About header
         font-size: 250%;
         font-family: bigboy;
         text-align: center;
     }
 
     p {
+        //
         font-family: scrappy;
         text-align: center;
     }
@@ -60,6 +65,7 @@ body {
 
 
 footer {
+    background-color: $gray;
     margin-top: 20%;
     position: absolute;
     top: 0;
