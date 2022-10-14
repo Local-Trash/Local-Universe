@@ -1,6 +1,11 @@
 **Note:** Many of these blogs will have spelling erors. You can make some easy commits this way.
 
-Octeber 13, 2022: 8:09
+October 14 2022: 11:25
+```lua
+-- Learned about meta data from a random fireship io video --
+```
+
+October 13, 2022: 8:09
 ```java
 class blog {
     public static void main(String[] args) {
